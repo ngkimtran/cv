@@ -14,7 +14,7 @@
 }
 
 #intro {
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
 
 h1 {
@@ -89,8 +89,8 @@ ul {
 
 .project-preview{
     margin-top: 15px;
-    width: 500px;
-    height: 300px;
+    width: 450px;
+    height: 250px;
     transition: filter .5s ease-in-out;
     -webkit-filter: grayscale(0%);
     filter: grayscale(0%); 
@@ -104,5 +104,6 @@ ul {
 figcaption {
     font-style: italic;
     font-size: .9rem;
-    padding: 2px;   
+    padding: 2px;
+    margin-bottom: 30px;   
 }
