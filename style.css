@@ -8,18 +8,21 @@
 }
 
 #nav {
-    background: #ddd;
+    background: #FFBC0D;
     padding: 20px 20px 20px 30px;
 }
 #intro {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 h1 {
     font-family: Arial Black;
     font-size: 48px;
 }
+hr {
+    border: 1.2px solid #333333;
+}
 #special {
-    color: orange;
+    color: #ffffff;
     font-weight: bold;
 }
 .highlight {
@@ -37,6 +40,10 @@ p:not(.highlight) {
 h4 {
     font-family: Arial Black; 
     padding:  5px 0 5px 0;
+}
+h5 {
+    font-family: Arial; 
+
 }
 ul {
     padding-top: 5px;
@@ -59,7 +66,15 @@ ul {
 }
 .grid-container {
     display: grid;
-    grid-template-areas: 'item1 item4'
-                         'item2 item3'
-                         '. item5'; 
+    grid-template-areas: 'item1 item3'
+                         '. item2'; 
+}
+.project-preview{
+    transition: filter .5s ease-in-out;
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%); 
+}
+.project-preview:hover {
+    -webkit-filter: grayscale(80%);
+    filter: grayscale(80%);
 }
