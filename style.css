@@ -2,6 +2,25 @@
     margin: 0;
 }
 
+hr {
+    border: 1.2px solid #333333;
+}
+
+h1 {
+    font-family: Arial Black;
+    font-size: 48px;
+}
+
+h4 {
+    font-family: Arial Black; 
+    padding:  5px 0 5px 0;
+}
+
+h5 {
+    font-family: Arial; 
+
+}
+
 #root {
     display: flex;
     flex-direction: row;
@@ -15,15 +34,6 @@
 
 #intro {
     margin-bottom: 80px;
-}
-
-h1 {
-    font-family: Arial Black;
-    font-size: 48px;
-}
-
-hr {
-    border: 1.2px solid #333333;
 }
 
 #special {
@@ -46,16 +56,6 @@ p:not(.highlight) {
     padding: 5px 0 10px 0;
 }
 
-h4 {
-    font-family: Arial Black; 
-    padding:  5px 0 5px 0;
-}
-
-h5 {
-    font-family: Arial; 
-
-}
-
 ul {
     padding-top: 5px;
     padding-bottom: 10px;
@@ -71,14 +71,6 @@ ul {
 
 .grid-item-3 {
     grid-area: item3;
-}
-
-.grid-item-4 {
-    grid-area: item4;
-}
-
-.grid-item-5 {
-    grid-area: item5;
 }
 
 .grid-container {
