@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    box-sizing: border-box;
 }
 
 hr {
@@ -77,6 +78,13 @@ ul {
     display: grid;
     grid-template-areas: 'item1 item3'
                          '. item2'; 
+}
+
+.projects {
+    margin-top: 2rem;
+    display: grid;
+    column-gap: 2rem;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
 }
 
 .project-preview{
