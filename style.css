@@ -101,9 +101,9 @@ ul {
     filter: grayscale(80%);
 }
 
-figcaption {
-    font-style: italic;
+a {
     font-size: .9rem;
-    padding: 2px;
-    margin-bottom: 30px;   
+    padding: .2rem;
+    margin-bottom: 2rem;
+    color:  black;
 }
