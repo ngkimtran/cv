@@ -82,7 +82,9 @@ ul {
 
 .grid-container {
   display: grid;
-  grid-template-areas: 'item1 item2 item3';
+  grid-template-areas:
+    "item1 item2 item3"
+    "item4 item5 item6";
   margin-bottom: 1rem;
   margin-top: 0.8rem;
 }
