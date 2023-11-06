@@ -8,11 +8,11 @@
   </head>
 
   <body>
-    <div id="root">
-      <div id="nav">
-        <div id="intro">
+    <div class="root">
+      <div class="nav">
+        <div class="intro">
           <h1>Kim Tran</h1>
-          <p>Web developer.</p>
+          <p class="intro-job-title">Web developer.</p>
         </div>
 
         <h4>Contact</h4>
@@ -138,7 +138,7 @@
         </ul>
       </div>
 
-      <div id="descr">
+      <div class="descr">
         <h4>Summary</h4>
         <hr />
         <p>
@@ -164,21 +164,19 @@
             </ul>
           </div>
           <div class="grid-item-2">
-            <p>Libraries:</p>
+            <p>Libraries & Frameworks:</p>
             <ul>
               <li>ReactJS</li>
               <li>NodeJS</li>
+              <li>Express</li>
+              <li>TailwindCSS / Bootstrap / Material UI</li>
             </ul>
           </div>
           <div class="grid-item-3">
-            <p>Frameworks:</p>
+            <p>Tools:</p>
             <ul>
-              <li>React Ecosystem (JSX, Hooks, Router, Redux, Context)</li>
-              <li>NextJS</li>
-              <li>Express</li>
-              <li>Strapi</li>
-              <li>Stripe</li>
-              <li>TailwindCSS / Bootstrap / Material UI</li>
+              <li>Docker</li>
+              <li>Kubernetes</li>
             </ul>
           </div>
           <div class="grid-item-4">
@@ -214,10 +212,11 @@
         <hr />
         <ul>
           <li>
-            <p class="highlight">
-              Unity Technologies Finland (May &#8208; September 2022):
+            <p class="job-title">
+              <span>Unity Technologies</span> / Full-stack Developer Intern
             </p>
-            <p>
+            <p class="job-date">May 2022 &#8208; September 2022, Helsinki</p>
+            <p class="job-description">
               I worked as a Software Engineer Intern for 5 months. While working
               at Unity, I contributed to the team's work by implementing new
               features, participating in planning sessions, and bringing my best
@@ -241,13 +240,12 @@
           </li>
         </ul>
 
-        <h4>Personal Projects</h4>
+        <h4>Projects</h4>
         <hr />
         <div class="projects">
           <figure class="single-project">
-            <p class="highlight">
-              Pet Adoption Application (August 2023 &#8208; Present)
-            </p>
+            <p class="project-title">Pet Adoption Application</p>
+            <p class="project-date">August 2023 &#8208; Present</p>
             <ul>
               <li>
                 <a
@@ -294,9 +292,8 @@
           </figure>
 
           <figure class="single-project">
-            <p class="highlight">
-              The Cat Database (June &#8208; October 2021)
-            </p>
+            <p class="project-title">The Cat Database</p>
+            <p class="project-date">June 2021 &#8208; October 2021</p>
             <ul>
               <li>
                 <a href="https://ngkimtran.github.io/thecatdb/" target="_blank"
@@ -323,6 +320,40 @@
               <img
                 class="project-preview"
                 src="./project-preview/catdb.png"
+                alt="Go to webpage"
+              />
+            </a>
+          </figure>
+
+          <figure class="single-project">
+            <p class="project-title">Recipe Database</p>
+            <p class="project-date">June 2020 &#8208; July 2020</p>
+            <ul>
+              <li>
+                <a
+                  href="https://ngkimtran.github.io/recipe-app/"
+                  target="_blank"
+                  >Website</a
+                >
+                &#8212;
+                <a
+                  href="https://github.com/ngkimtran/recipe-app/tree/master"
+                  target="_blank"
+                  >Github</a
+                >
+              </li>
+              <li>
+                A recipe database where users can search for different dishes,
+                viewing their total calories and how to make them.
+              </li>
+              <li>Frontend technologies: Reactjs, Hooks and Fetch API.</li>
+              <li>Backend technologies: Fetched from Edamame API.</li>
+            </ul>
+
+            <a href="https://ngkimtran.github.io/recipe-app/" target="_blank">
+              <img
+                class="project-preview"
+                src="./project-preview/recipe.png"
                 alt="Go to webpage"
               />
             </a>

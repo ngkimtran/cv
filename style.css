@@ -27,27 +27,71 @@ h5 {
   font-family: Arial;
 }
 
-#root {
+.root {
   display: flex;
   flex-direction: row;
   min-height: 100vh;
+  line-height: 1.4rem;
 }
 
-#nav {
+.nav {
+  min-width: 25vw;
   background: #fdfd96;
   padding: 1.2rem 1.2rem 1.2rem 1.8rem;
 }
 
-#intro {
+.intro {
   margin-bottom: 5rem;
 }
 
-#special {
+.intro-job-title {
+  padding-top: 1.2rem !important;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #f2511b;
+}
+
+.job-title > span {
+  font-weight: bold;
+}
+
+.job-title {
+  padding: 5px 0 0 !important;
+}
+
+.job-date {
+  padding: 0;
+  font-size: 0.8rem;
+  color: #666666;
+  text-transform: uppercase;
+}
+
+.job-description {
+  padding: 0 0 10px !important;
+}
+
+.single-project {
+  padding-top: 5px;
+}
+
+.project-title {
+  font-weight: bold;
+  padding: 5px 0 0 !important;
+}
+
+.project-date {
+  padding: 0;
+  font-size: 0.8rem;
+  color: #666666;
+  text-transform: uppercase;
+}
+
+.special {
   color: #eeeeee;
   font-weight: bold;
 }
 
-#descr {
+.descr {
   padding: 1.2rem 1.2rem 1.2rem 1.8rem;
   background: #ffffff;
 }
@@ -63,9 +107,8 @@ ul {
   text-align: justify;
 }
 
-.highlight {
+div[class^="grid-item"] > p {
   font-weight: bold;
-  padding-top: 5px;
 }
 
 .grid-item-1 {
